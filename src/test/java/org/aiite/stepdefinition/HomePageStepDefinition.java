@@ -30,6 +30,8 @@ public class HomePageStepDefinition {
 	public void validate_the_username_in_home_page() {
 		System.out.println("validate the username");
 	}
-	
+	public void meth() {
+		System.out.println("new conflict");
+	}
 	
 }
