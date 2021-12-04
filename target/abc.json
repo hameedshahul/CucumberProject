@@ -1,0 +1,1348 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 767600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenaro()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenaro()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "the usershould open the chrome browser .",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "and click on login.",
+            "match": {
+              "location": "HomepageScenariooutline.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regre"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/Feature/homePage.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenaro()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "homepage1;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenaro()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter the username and password \"shahul\" \"hameed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shahul\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"hameed\"",
+                  "offset": 41
+                }
+              ],
+              "location": "HomepageScenariooutline.enter_the_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "and click on login.",
+            "match": {
+              "location": "HomepageScenariooutline.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 85500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "and click on login...",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13200,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "and click on login..",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 8200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10600,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13100,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9100,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 6100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9700,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 46100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7300,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6500,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 21300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the usershould open the chrome browser.",
+            "match": {
+              "location": "HomePageStepDefinition.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "and load the url",
+            "match": {
+              "location": "HomePageStepDefinition.loadUrl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "tc_afterlogin click on add friend",
+        "description": "",
+        "id": "homepage1;tc-afterlogin-click-on-add-friend",
+        "after": [
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "enter the username and password",
+            "match": {
+              "location": "HomePageStepDefinition.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "and click on login",
+            "match": {
+              "location": "HomePageStepDefinition.and_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "validate the username in home page.",
+            "match": {
+              "location": "HomePageStepDefinition.validate_the_username_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regre"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage1",
+    "description": "",
+    "id": "homepage1",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/Feature/homepageBackground.feature",
+    "tags": [
+      {
+        "name": "@regre",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
